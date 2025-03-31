@@ -1,2 +1,5 @@
-// You can add interactivity here if needed, e.g., dynamic image updates
 console.log("Page Loaded Successfully!");
+// Optional: Add interactivity if required by tests
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded and parsed");
+});
